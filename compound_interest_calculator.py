@@ -1,9 +1,7 @@
-Compound interest calculator
-
-P = float(input("Enter a investment or loan amount: R"))
-i = float(input("Enter the interest rate (%): "))
-n = int(input("Enter the number of times compounded per year: "))
-t = float(input("Enter the number of years: "))
+P = 0
+i = 0
+n = 0
+t = 0
 
 while P <= 0:
     P = float(input("Enter a investment or loan amount: R"))
