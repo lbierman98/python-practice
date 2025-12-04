@@ -3,28 +3,28 @@ i = 0
 n = 0
 t = 0
 
-while P <= 0:
+while True:
     P = float(input("Enter a investment or loan amount: R"))
     if P <= 0:
         print("Principal amount cannot be less than or equal to zero.")
     else:
         break
 
-while i <= 0:
+while True:
     i = float(input("Enter the interest rate (%): "))
     if i <= 0:
         print("Interest rate cannot be less than or equal to zero.")
     else:
         break
 
-while n <= 0:
+while True:
     n = int(input("Enter the number of times compounded per year: "))
     if n <= 0:
         print("Compounding number cannot be less than or equal to zero.")
     else:
         break
 
-while t <= 0:
+while True:
     t = float(input("Enter the number of years: "))
     if t <= 0:
         print("Number of ears cannot be less than or equal to zero.")
